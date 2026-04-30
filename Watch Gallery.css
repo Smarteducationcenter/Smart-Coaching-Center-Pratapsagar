@@ -1,0 +1,38 @@
+body{
+		        margin:0cm;
+				padding:0cm;
+		}
+		   .gallery{
+			   display: flex;
+		       float:left;
+			   width:600px;
+			   border:2px solid red;
+			   outline:2px solid blue;
+			   margin:8px;
+		   }
+		   .gallery img{
+		      height:400px;
+			  width:600px;
+		   }
+		   .watchgallery{
+              display: flex;
+			  align-items: center;
+			  padding:2px;
+			  justify-content: space-evenly;
+			  margin-left:4px;
+		   }
+
+@media only screen and (max-width:1130px){
+           .gallery{
+			   display: flex;
+		       flex-direction: column-reverse;
+			   width:480px;
+			   border:2px solid red;
+			   outline:2px solid blue;
+			   margin:5px;
+		   }
+		   .gallery img{
+		      height:300px;
+			  width:480px;
+		   }
+}
